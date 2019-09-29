@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow android:gravity="center">
+        <TextView
+            android:text=""
+            android:id="@+id/User"
+            android:textSize="18dp"/>
+    </TableRow>
+<TableRow
+    android:gravity="center"
+    android:layout_marginTop="10dp">
+
+    <TextView
+        android:layout_width="69dp"
+        android:width="20dp"
+        android:height="40dp"
+        android:gravity="center"
+        android:text="目标数字:"
+        android:textColor="#E91E63"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/aim"
+        android:width="20dp"
+        android:height="40dp"
+        android:gravity="center"
+        android:textColor="#673AB7" />
+    <TextView
+        android:gravity="center"
+        android:width="20dp"
+        android:height="40dp"/>
+</TableRow>
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:columnCount="4"
+        android:layout_marginLeft="21dp">
+
+        <Button android:id="@+id/col1" />
+
+        <Button android:id="@+id/col2" />
+
+        <Button android:id="@+id/col3" />
+
+        <Button android:id="@+id/col4" />
+
+        <Button android:id="@+id/col5" />
+
+        <Button android:id="@+id/col6" />
+
+        <Button android:id="@+id/col7" />
+
+        <Button android:id="@+id/col8" />
+
+        <Button android:id="@+id/col9" />
+
+        <Button android:id="@+id/col10" />
+
+        <Button android:id="@+id/col11" />
+
+        <Button android:id="@+id/col12" />
+
+        <Button android:id="@+id/col13" />
+
+        <Button android:id="@+id/col14" />
+
+        <Button android:id="@+id/col15" />
+
+        <Button android:id="@+id/col16" />
+    </GridLayout>
+
+    <TableRow
+        android:layout_height="77dp"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/renew"
+            android:layout_width="106dp"
+            android:layout_height="wrap_content"
+
+            android:background="#00BCD4"
+            android:text="刷新"
+            android:textColor="#131111" />
+
+        <Button
+            android:id="@+id/start"
+            android:layout_width="106dp"
+            android:layout_height="wrap_content"
+            android:background="#673AB7"
+            android:text="点击开始游戏"
+            android:textColor="#FFF7F7"/>
+
+        <Button
+            android:id="@+id/group"
+            android:layout_width="106dp"
+            android:layout_height="wrap_content"
+            android:background="#00BCD4"
+            android:text="排行榜"
+            android:onClick="query"
+            android:textColor="#131111"/>
+
+    </TableRow>
+
+    <TableRow android:gravity="center" android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="102dp"
+            android:width="20dp"
+            android:height="40dp"
+            android:gravity="center"
+            android:text="您的得分是："
+            android:textColor="#673AB7"
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/score"
+            android:width="20dp"
+            android:height="40dp"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="#E91E63"
+            android:textSize="17dp" />
+    </TableRow>
+
+    <TableRow android:gravity="center" android:layout_marginTop="15dp">
+        <TextView
+            android:text="游戏倒计时:"
+            android:gravity="center"
+            android:textSize="20dp" />
+        <TextView
+            android:text="0"
+            android:id="@+id/times"
+            android:gravity="center"
+            android:textSize="20dp"/>
+    </TableRow>
+    <View
+        android:layout_height="2dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="5dp"
+        android:background="#000000"/>
+    <LinearLayout
+        android:id="@+id/title"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/TextView"
+            android:layout_weight="2"
+            android:text="名次"/>
+        <TextView
+            style="@style/TextView"
+            android:layout_weight="2"
+            android:text="玩家"/>
+
+        <TextView
+            style="@style/TextView"
+            android:layout_weight="2"
+            android:text="分数"/>
+    </LinearLayout>
+<ListView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/Top">
+
+</ListView>
+</TableLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultActivity">
+
+    <TextView android:text="Hi，boy，welcome joy us"
+        android:textSize="20dp"
+        android:gravity="center"/>
+    <TableRow android:gravity="center">
+        <TextView android:textSize="18dp" android:text="Welcome："/>
+        <TextView android:id="@+id/textName" android:textSize="20dp"/>
+    </TableRow>
+</TableLayout>

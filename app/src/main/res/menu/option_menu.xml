@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:title="更换背景颜色"
+    app:showAsAction="always">
+    <menu>
+        <item
+            android:title="粉色"/>
+        <item android:title="绿色"/>
+        <item android:title="黄色"/>
+    </menu>
+</item>
+    <item
+        android:title="退出"
+        app:showAsAction="always"/>
+</menu>

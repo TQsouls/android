@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/testText"
+        android:gravity="center"
+        android:text="123456"
+        android:padding="10dp"
+        android:textSize="24dp"/>
+
+    <TableRow
+        android:layout_marginLeft="10dp">
+        <TextView android:text="size"/>
+        <Button
+            android:id="@+id/big"
+            android:text="增大"/>
+        <Button
+            android:id="@+id/small"
+            android:text="减小"/>
+    </TableRow>
+    <TableRow
+        android:layout_marginLeft="10dp">
+        <TextView android:text="color"/>
+        <Button
+            android:id="@+id/red"
+            android:text="红色"/>
+        <Button
+            android:id="@+id/blue"
+            android:text="蓝色"/>
+        <Button
+            android:id="@+id/yellow"
+            android:text="黄色"/>
+    </TableRow>
+    <TableRow
+        android:layout_marginLeft="10dp">
+        <TextView android:text="size"/>
+        <Button
+            android:id="@+id/css"
+            android:text="加粗"/>
+        <Button
+            android:id="@+id/css1"
+            android:text="减小"/>
+        <Button
+            android:id="@+id/css2"
+            android:text="默认"/>
+    </TableRow>
+
+</TableLayout>
